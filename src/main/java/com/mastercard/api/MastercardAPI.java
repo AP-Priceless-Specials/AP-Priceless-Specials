@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.TypeReference;
 import com.mastercard.api.entity.*;
-import com.mastercard.api.filter.OAuth;
+import com.mastercard.developer.oauth.OAuth;
 import org.springframework.util.StringUtils;
 
 import javax.net.ssl.HttpsURLConnection;

@@ -1,8 +1,7 @@
 package com.mastercard.api;
 
 import com.alibaba.fastjson.JSONObject;
-import com.mastercard.api.filter.OAuth;
-
+import com.mastercard.developer.oauth.OAuth;
 import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
 import java.net.URI;
@@ -470,6 +469,7 @@ public class SpecialsAPI {
         JSONObject jsonObject = new JSONObject();
         String method = req.getRequestMethod();
         String authHeader = OAuth.getAuthorizationHeader(uri, method, jsonObject.toString(), StandardCharsets.UTF_8, oauth_consumer_key, loadSigningKey(getFilePath(fileName) + fileName, userName, password));
+//        String authHeader = OAuth.getAuthorizationHeader(uri, method, jsonObject.toString(), StandardCharsets.UTF_8, oauth_consumer_key, loadSigningKey(getFilePath(fileName) + fileName, userName, password));
 //        String authHeader = OAuth.getAuthorizationHeader(uri, method, jsonObject.toString(), StandardCharsets.UTF_8, oauth_consumer_key, loadSigningKey(fileName, userName, password));
         req.setRequestProperty(OAuth.AUTHORIZATION_HEADER_NAME, authHeader);
     }

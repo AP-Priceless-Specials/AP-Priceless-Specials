@@ -6,7 +6,7 @@
 
     <groupId>io.github.Mastercard-Platform</groupId>
     <artifactId>Mastercard-AP-Priceless-Specials</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>mastercard-specials-customer-service</name>
     <url>https://github.com/Mastercard-Platform/mastercard-specials-customer-service</url>
@@ -57,6 +57,11 @@
             <version>4.5.5</version>
         </dependency>
         <dependency>
+            <groupId>com.mastercard.developer</groupId>
+            <artifactId>oauth1-signer</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
@@ -76,8 +81,8 @@
 
     <developers>
         <developer>
-            <name>mastercard-platform</name>
-            <email>zhu18217194532@163.com</email>
+            <organization>Mastercard-Platform</organization>
+            <organizationUrl>https://developer.mastercard.com</organizationUrl>
         </developer>
     </developers>
 
