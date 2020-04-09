@@ -8,8 +8,8 @@
     <artifactId>Mastercard-AP-Priceless-Specials</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-    <name>mastercard-specials-customer-service</name>
-    <url>https://github.com/Mastercard-Platform/mastercard-specials-customer-service</url>
+    <name>Mastercard-AP-Priceless-Specials</name>
+    <url>https://github.com/Mastercard-Platform/Mastercard-AP-Priceless-Specials</url>
     <description>mastercard api related sdk</description>
 
     <licenses>
