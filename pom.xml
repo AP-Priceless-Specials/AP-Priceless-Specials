@@ -105,7 +105,6 @@
                     </archive>
                 </configuration>
             </plugin>
-            <!-- 必须配置 source-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -119,7 +118,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--  必须配置 javadoc-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -133,8 +131,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--  必须配置 sonatype-->
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
@@ -157,7 +153,6 @@
                     <detectBuildFailures>true</detectBuildFailures>
                 </configuration>
             </plugin>
-            <!-- 必须配置  GPG-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
