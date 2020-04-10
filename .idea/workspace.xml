@@ -18,8 +18,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4350">
-              <caret line="175" column="12" lean-forward="true" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
+            <state relative-caret-position="-1050">
+              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -27,7 +27,7 @@
       <file leaf-file-name="SpecialsAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mastercard/api/SpecialsAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14100">
+            <state relative-caret-position="13800">
               <caret line="470" column="137" selection-start-line="470" selection-start-column="137" selection-end-line="470" selection-end-column="137" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,7 +39,7 @@
       <file leaf-file-name="MastercardAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mastercard/api/MastercardAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15990">
+            <state relative-caret-position="15510">
               <caret line="533" column="29" selection-start-line="533" selection-start-column="29" selection-end-line="533" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -140,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +177,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -271,6 +271,7 @@
       <workItem from="1586332329717" duration="989000" />
       <workItem from="1586420808688" duration="2513000" />
       <workItem from="1586426050701" duration="262000" />
+      <workItem from="1586485173541" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="update pom.xml">
       <created>1586421019291</created>
@@ -279,31 +280,44 @@
       <option name="project" value="LOCAL" />
       <updated>1586421019291</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update pom.xml">
+      <created>1586485388865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586485388866</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add version number">
+      <created>1586485464800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586485464800</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5396000" />
+    <option name="totallyTimeSpent" value="6488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.89465153" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32980332" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.89465153" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.89465153" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49848714" weight="0.0016207455" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -354,7 +368,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pom.xml" />
+    <MESSAGE value="Add version number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add version number" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mastercard/api/SpecialsAPI.java">
@@ -588,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mastercard/api/JSONUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mastercard/api/SpecialsAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14100">
+        <state relative-caret-position="13800">
           <caret line="470" column="137" selection-start-line="470" selection-start-column="137" selection-end-line="470" selection-end-column="137" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -605,7 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mastercard/api/MastercardAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15990">
+        <state relative-caret-position="15510">
           <caret line="533" column="29" selection-start-line="533" selection-start-column="29" selection-end-line="533" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -622,8 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4350">
-          <caret line="175" column="12" lean-forward="true" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
+        <state relative-caret-position="-1050">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
         </state>
       </provider>
     </entry>
